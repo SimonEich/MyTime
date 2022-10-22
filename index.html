@@ -14,14 +14,34 @@
   <body>
   <center>
     <h1 id="h1">Start</h1>
-    <p id="Zeit">Press button to start!</p>
+    <div class="" id="div">
+    <div class="" >
+      <h5>Start date:</h5>
+      <input type="date" id="start" name="trip-start"
+      value="2022-01-01";
+      min="2022-01-01" max="2030-12-31">
+
+    </div>
+    <div class="">
+      <h5>End date:</h5>
+      <input type="date" id="end" name="trip-start"
+      value="2022-01-01"
+      min="2022-01-01" max="2030-12-31">
+    </div>
+    </div>
+    <div class="stopwatch" id="divv">
+        <div class="display">00 : 00 : 00 : 00</div>
+        <div class="buttons">
+            <button type="button" class="start">Start</button>
+            <button type="button" class="pause">Pause</button>
+            <button type="button" class="reset">Reset</button>
+        </div>
+    </div>
+    <p id="Zeit">Loading...</p>
 <button type="button" class="btn btn-outline-dark" id="Time">Time</button>
 <button type="button" class="btn btn-outline-dark" id="Date">Date</button>
-<button type="button" class="btn btn-outline-dark" id="Timer">Timer</button>
+<button type="button" class="btn btn-outline-dark" id="Timer">Date Calculator</button>
 <button type="button" class="btn btn-outline-dark" id="Stopwatch">Stopwatch</button>
-<input type="date" id="start" name="trip-start"
-       value="2018-07-22"
-       min="2018-01-01" max="2018-12-31">
     <script src="index.js" charset="utf-8"></script>
   </center>
   </body>
